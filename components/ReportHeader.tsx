@@ -11,11 +11,11 @@ const ReportHeader: React.FC<ReportHeaderProps> = ({ metadata }) => {
     <div className="flex justify-between items-start border-b-2 border-gray-900 pb-4 mb-8">
       {/* Bloco de Informações (Esquerda) */}
       <div className="flex flex-col gap-0.5 max-w-[70%]">
-        <h2 className="text-[14pt] font-extrabold text-gray-900 leading-tight uppercase tracking-tight">
-          {metadata.orgao || 'ÓRGÃO OU ENTIDADE'}
+        <h2 className="text-[14pt] font-extrabold text-gray-900 leading-tight tracking-tight">
+          {metadata.orgao || 'Órgão ou Entidade'}
         </h2>
         <div className="text-[12pt] font-medium text-gray-800 leading-snug">
-          {metadata.objeto || 'Descrição do Objeto'}
+          {metadata.objeto || 'Descrição do objeto'}
         </div>
         <div className="text-[11pt] text-gray-700">
           <span className="font-semibold">Data:</span> {metadata.data || '___ de __________ de 202__'}
@@ -32,7 +32,7 @@ const ReportHeader: React.FC<ReportHeaderProps> = ({ metadata }) => {
           />
         ) : (
           <div className="w-full h-16 border-2 border-dashed border-gray-300 rounded flex items-center justify-center bg-gray-50 no-print">
-            <span className="text-gray-400 font-bold text-sm tracking-widest">LOGO</span>
+            <span className="text-gray-400 font-bold text-sm">Logo</span>
           </div>
         )}
       </div>
