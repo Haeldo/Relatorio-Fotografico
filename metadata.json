@@ -1,0 +1,5 @@
+{
+  "name": "Gerador de Relatório Fotográfico Profissional",
+  "description": "Uma ferramenta institucional para criar relatórios fotográficos organizados com detecção automática de orientação e formatação para PDF.",
+  "requestFramePermissions": []
+}
